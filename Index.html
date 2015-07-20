@@ -1,21 +1,81 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>HTML 5 experiments</title>
-    <style >
-      .timeback{
-        height: 20px;
-        width: 100%;
-        border: 2px solid #444;
-        border-radius: 3px;
-      }
-    </style>
 
-  </head>
-  <body>
-<div class="timeback">
+<head>
+  <meta charset="utf-8">
+  <title>HTML 5 experiments</title>
+  <style>
+    .timeback {
+      cursor: pointer;
+      height: 50px;
+      width: 50px;
+      border: 2px solid #444;
+      border-radius: 5px;
+      background-color: RGBA(92, 67, 131, 1);
+      color: #FFFFFF;
+      font-size: 20px;
+    }
+    .divs{
+    /*border: 1px solid RGBA(92, 67, 131, 1);*/
+    height: 80px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <table>
+<tr>
+  <td colspan="4">
+<div class="divs">
 
 </div>
-  </body>
+  </td>
+</tr>
+    <tr>
+      <td>
+        <button type="button" id="btnb" class="timeback">B</button>
+      </td>
+      <td>
+        <button type="button" id="btnlb" class="timeback">LB</button>
+      </td>
+      <td>
+        <button type="button" id="btnnb" class="timeback">NB</button>
+      </td>
+      <td>
+        <button type="button" id="btnwb" class="timeback">WB</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button type="button" id="btnwk" class="timeback">Wk</button>
+      </td>
+      <td>
+        <button type="button" id="btn3" class="timeback">3</button>
+      </td>
+      <td>
+        <button type="button" id="btn2" class="timeback">2</button>
+      </td>
+      <td>
+        <button type="button" id="btn1" class="timeback">1</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button type="button" id="btnundo" class="timeback">&#x238c;</button>
+      </td>
+      <td>
+        <button type="button" id="btn6" class="timeback">6</button>
+      </td>
+      <td>
+        <button type="button" id="btn5" class="timeback">5</button>
+      </td>
+      <td>
+        <button type="button" id="btn4" class="timeback">4</button>
+      </td>
+    </tr>
+  </table>
+
+</body>
+
 </html>
